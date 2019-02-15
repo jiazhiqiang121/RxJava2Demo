@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
 
     <item android:drawable="@drawable/color_ffffff" />
 
-    <item
-        android:bottom="38dp"
-        android:left="38dp"
-        android:right="38dp"
-        android:top="38dp">
+    <item>
         <bitmap
             android:antialias="true"
             android:dither="true"

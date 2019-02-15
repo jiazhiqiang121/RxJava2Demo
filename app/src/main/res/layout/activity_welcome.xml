@@ -27,7 +27,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="38dp"
-            android:contentDescription="@string/app_name"
-            android:src="@mipmap/bg_splash_logo" />
+            android:contentDescription="@string/app_name" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
