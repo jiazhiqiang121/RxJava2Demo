@@ -4,7 +4,11 @@
 
     <item android:drawable="@drawable/color_ffffff" />
 
-    <item>
+    <item
+        android:bottom="38dp"
+        android:left="38dp"
+        android:right="38dp"
+        android:top="38dp">
         <bitmap
             android:antialias="true"
             android:dither="true"
