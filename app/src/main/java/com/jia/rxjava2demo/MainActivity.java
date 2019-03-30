@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.jia.rxjava2demo.ui.Dagger2Activity;
 import com.jia.rxjava2demo.ui.HomeActivity;
 
 import butterknife.ButterKnife;
@@ -19,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
     public void onViewClicked(View v) {
         switch (v.getId()) {
             case R.id.home_btn:
-                startActivity(new Intent(this, HomeActivity.class));
+//                startActivity(new Intent(this, HomeActivity.class));
+                Dagger2Activity.startActivity(this);
                 break;
         }
     }
