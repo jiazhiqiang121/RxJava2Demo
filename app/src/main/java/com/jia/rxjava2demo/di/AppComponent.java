@@ -24,7 +24,7 @@ public interface AppComponent extends AndroidInjector<RxApplication> {
     interface Builder {
 
         @BindsInstance
-        AppComponent.Builder applicaton(Application application);
+        AppComponent.Builder application(Application application);
 
         AppComponent build();
     }
