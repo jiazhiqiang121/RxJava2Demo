@@ -2,15 +2,15 @@ package com.jia.rxjava2demo.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
-import dagger.android.DaggerActivity;
 
 /**
  * Created by tonyjia on 2019/2/13.
  */
-public abstract class BaseActivity extends DaggerActivity {
+public abstract class BaseActivity extends AppCompatActivity {
 
     private Unbinder unbinder;
 

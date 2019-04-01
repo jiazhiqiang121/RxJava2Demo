@@ -6,13 +6,13 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.jia.rxjava2demo.R;
-import com.jia.rxjava2demo.base.BaseActivity;
+import com.jia.rxjava2demo.base.DaggerBaseActivity;
 
 import javax.inject.Inject;
 
 import butterknife.OnClick;
 
-public class Dagger2Activity extends BaseActivity implements Dagger2Contract.View {
+public class Dagger2Activity extends DaggerBaseActivity implements Dagger2Contract.View {
 
     public static void startActivity(Context context) {
         Intent intent = new Intent(context, Dagger2Activity.class);

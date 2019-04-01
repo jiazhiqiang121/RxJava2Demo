@@ -13,4 +13,11 @@
         android:layout_height="wrap_content"
         android:text="Home" />
 
+    <Button
+        android:id="@+id/filter_list_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter_list"
+        app:layout_constraintLeft_toRightOf="@+id/home_btn" />
+
 </android.support.constraint.ConstraintLayout>
